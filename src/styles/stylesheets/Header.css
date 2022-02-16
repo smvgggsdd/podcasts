@@ -1,11 +1,14 @@
 .mainHeader {
   align-items: center;
-  background-color: #371869;
   display: flex;
   flex-wrap: wrap;
   gap: 0.1rem;
   justify-content: center;
   min-height: 100px;
+}
+
+.header-container {
+  background-color: #371869;
 }
 
 /*# sourceMappingURL=Header.css.map */
