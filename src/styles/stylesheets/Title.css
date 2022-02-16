@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "Space_Mono";
+  src: local("Space_Mono"), url("../../fonts/Space_Mono/SpaceMono-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Work_Sans";
+  src: local("Work_Sans"), url("../../fonts/Work_Sans/WorkSans-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+.title {
+  font-size: 3rem;
+  margin-right: 0.25rem;
+  margin-top: -15px;
+  margin-bottom: -15px;
+}
+
+.title-bold {
+  background: linear-gradient(90deg, #96421d 0%, #4d4dc2 100%);
+  background-clip: text;
+  color: transparent;
+  font-family: "Space_Mono";
+  font-weight: bold;
+}
+
+.title-clean {
+  font-family: "Work_Sans";
+  color: white;
+  font-weight: lighter;
+}
+
+/*# sourceMappingURL=Title.css.map */

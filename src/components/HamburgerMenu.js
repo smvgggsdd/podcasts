@@ -1,6 +1,6 @@
-import '../styles/stylesheets/HamburgerHeader.css';
+import '../styles/stylesheets/HamburgerMenu.css';
 
-export default function HamburgerHeader() {
+export default function HamburgerMenu() {
     return (
         <>
             <div className="hamburger">
