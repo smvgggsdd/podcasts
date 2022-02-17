@@ -5,8 +5,8 @@
             <stop stop-color="#FD741B" offset="0%"></stop>
             <stop stop-color="#A300BB" offset="100%"></stop>
         </linearGradient>
-    </defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.6">
+    </defs>zz
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity=".6">
         <g id="Desktop" transform="translate(-1124.000000, -242.000000)" fill="url(#linearGradient-1)">
             <g id="bg" transform="translate(233.000000, 242.000000)">
                 <circle id="Oval" cx="1014" cy="123" r="123"></circle>

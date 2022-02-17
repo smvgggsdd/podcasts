@@ -1,8 +1,11 @@
 .nav {
   align-items: center;
+  background-color: white;
   display: flex;
   height: 75px;
+  position: relative;
   width: 100%;
+  z-index: 3;
 }
 
 /*# sourceMappingURL=Nav.css.map */
