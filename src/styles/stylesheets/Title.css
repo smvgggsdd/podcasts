@@ -11,8 +11,8 @@
 .title {
   font-size: 3rem;
   margin-right: 0.25rem;
-  margin-top: -15px;
-  margin-bottom: -15px;
+  margin-top: -12px;
+  margin-bottom: -12px;
   z-index: 3;
 }
 
@@ -21,7 +21,9 @@
   background-clip: text;
   color: transparent;
   font-family: "Space_Mono";
+  font-size: 2.5rem;
   font-weight: bold;
+  letter-spacing: 0.2rem;
 }
 
 .title-clean {

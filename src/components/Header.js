@@ -3,7 +3,7 @@ import Title from './Title';
 import Circle from './HeaderCircle';
 import Triangle from './HeaderTriangle';
 
-export default function() {
+export default function Header() {
     return (
         <>
             <div className="header-container">

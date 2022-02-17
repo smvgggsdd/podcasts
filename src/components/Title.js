@@ -1,6 +1,6 @@
 import '../styles/stylesheets/Title.css';
 
-export default function() {
+export default function Title() {
     return (
         <>
             <h1 className="title title-clean">Top 5 </h1>
