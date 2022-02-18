@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"CardAuthor.css"}
+{"version":3,"sourceRoot":"","sources":["../sass/CardAuthor.scss"],"names":[],"mappings":"AAAA;EACI;EACA;EAEA;;AAIJ;EACI;EACA;EACA;EACA;;AACA;EACI","file":"CardAuthor.css"}

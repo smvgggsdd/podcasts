@@ -5,9 +5,10 @@ import CardBody from './CardBody';
 import Description from './Description';
 
 
-export default function Card() {
+export default function Card(props) {
     return (
         <div className="card">
+            {/* {props.id} */}
             <CardNumber />
             <CardImage />
             <CardBody />

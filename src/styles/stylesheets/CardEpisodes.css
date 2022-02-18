@@ -1,3 +1,10 @@
-
+@font-face {
+  font-family: "Space_Mono_Regular";
+  src: local("Space_Mono"), url("../../fonts/Space_Mono/SpaceMono-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+.card-episodes {
+  font-family: "Space_Mono_Regular";
+}
 
 /*# sourceMappingURL=CardEpisodes.css.map */

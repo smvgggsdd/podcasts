@@ -1,3 +1,4 @@
+import '../styles/stylesheets/Card.css';
 import CardAuthor from "./CardAuthor";
 import CardEpisodes from "./CardEpisodes";
 import CardTitle from "./CardTitle";
@@ -11,9 +12,12 @@ export default function CardMain() {
             <CardTitle />
             <CardAuthor />
             <CardEpisodes />
-            <Itunes />
-            <WebLink />
-            <Rss />
+            <div className="icons">           
+                <Itunes />
+                <WebLink />
+                <Rss />
+            </div>
+
         </div>
     )
 }

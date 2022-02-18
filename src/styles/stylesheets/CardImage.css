@@ -1,9 +1,19 @@
 .card-image {
   bottom: 20px;
-  height: 100px;
+  clear: left;
+  height: 141px;
+  float: left;
   position: relative;
-  right: 15px;
-  width: 100px;
+  right: 20px;
+  width: 141px;
+}
+
+.image-container {
+  height: 200px;
+  float: left;
+  position: relative;
+  right: 70px;
+  top: 70px;
 }
 
 /*# sourceMappingURL=CardImage.css.map */

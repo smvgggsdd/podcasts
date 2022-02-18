@@ -1,3 +1,16 @@
-
+@font-face {
+  font-family: "Space_Mono_Regular";
+  src: local("Space_Mono"), url("../../fonts/Space_Mono/SpaceMono-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+.card-author {
+  font-family: "Space_Mono_Regular";
+  font-size: 1.16rem;
+  display: inline;
+  width: 50px;
+}
+.card-author strong {
+  color: #9c00b2;
+}
 
 /*# sourceMappingURL=CardAuthor.css.map */

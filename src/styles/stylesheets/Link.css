@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "Space_Mono_Bold";
+  src: local("Space_Mono"), url("../../fonts/Space_Mono/SpaceMono-Bold.ttf") format("truetype");
+  font-weight: normal;
+}
+.link {
+  color: #777777;
+  font-family: "Space_Mono_Bold";
+  font-weight: normal;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=Link.css.map */
