@@ -1,3 +1,12 @@
-
+@font-face {
+  font-family: "Space_Mono_Bold";
+  src: local("Space_Mono"), url("../../fonts/Space_Mono/SpaceMono-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+.card-title {
+  font-family: "Space_Mono_Bold";
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
 
 /*# sourceMappingURL=CardTitle.css.map */

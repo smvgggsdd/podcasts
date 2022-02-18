@@ -2,6 +2,7 @@ import '../styles/stylesheets/Card.css';
 import CardNumber from './CardNumber';
 import CardImage from './CardImage';
 import CardBody from './CardBody';
+import Description from './Description';
 
 
 export default function Card() {
@@ -10,6 +11,7 @@ export default function Card() {
             <CardNumber />
             <CardImage />
             <CardBody />
+            <Description />
         </div>
     )
 }
