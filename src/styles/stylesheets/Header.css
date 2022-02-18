@@ -1,7 +1,6 @@
 .mainHeader {
   align-items: center;
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
   gap: 0rem;
   justify-content: center;
@@ -13,13 +12,13 @@
   padding: 55px;
 }
 
-@media (max-width: 482px) {
+@media (max-width: 500px) {
   .header-container {
     padding-left: 0px;
     padding-right: 0px;
   }
 }
-@media (min-width: 960px) {
+@media (min-width: 1000px) {
   .mainHeader {
     flex-direction: row;
     gap: 1.8rem;
