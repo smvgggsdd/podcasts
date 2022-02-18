@@ -1,7 +1,7 @@
 import '../styles/stylesheets/Card.css';
 import CardNumber from './CardNumber';
 import CardImage from './CardImage';
-import CardMain from './CardMain';
+import CardBody from './CardBody';
 
 
 export default function Card() {
@@ -9,7 +9,7 @@ export default function Card() {
         <div className="card">
             <CardNumber />
             <CardImage />
-            <CardMain />
+            <CardBody />
         </div>
     )
 }

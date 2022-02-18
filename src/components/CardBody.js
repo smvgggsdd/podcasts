@@ -1,6 +1,9 @@
 import CardAuthor from "./CardAuthor";
 import CardEpisodes from "./CardEpisodes";
 import CardTitle from "./CardTitle";
+import Rss from "./Rss";
+import Itunes from "./Itunes";
+import WebLink from "./WebLink";
 
 export default function CardMain() {
     return (
@@ -8,6 +11,9 @@ export default function CardMain() {
             <CardTitle />
             <CardAuthor />
             <CardEpisodes />
+            <Itunes />
+            <WebLink />
+            <Rss />
         </div>
     )
 }
