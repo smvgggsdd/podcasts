@@ -28,14 +28,24 @@
   font-family: "Space_Mono";
   font-size: 3.5rem;
   font-weight: bolder;
-  letter-spacing: 0.2rem;
+  letter-spacing: 0.15rem;
 }
 
 .title-clean {
   font-family: "Space_Mono_Regular";
   color: white;
   font-weight: normal;
-  letter-spacing: 0.2rem;
+  letter-spacing: 0.1rem;
+}
+
+@media (max-width: 376px) {
+  .title-bold {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 /*# sourceMappingURL=Title.css.map */

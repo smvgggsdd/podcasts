@@ -14,10 +14,7 @@ inversed card title is #777777
 }
 
 .card-main {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  width: 200px;
+  float: left;
 }
 
 /*# sourceMappingURL=Card.css.map */
