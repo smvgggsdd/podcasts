@@ -2,5 +2,8 @@
   padding: 20px;
   padding-top: 50px;
 }
+.main li {
+  list-style-type: none;
+}
 
 /*# sourceMappingURL=Main.css.map */

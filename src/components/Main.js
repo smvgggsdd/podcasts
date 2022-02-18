@@ -4,6 +4,7 @@ import React, {useState, useEffect} from 'react';
 
 export default function Main() {
     const [data, setData] = useState([]);
+    let count = 1;
     const getData =()=>{
         fetch('sample-api-response.json', {
             headers : {
@@ -25,7 +26,9 @@ export default function Main() {
     }, []);
     return (
         <main className="main">
-            {data.map((data) => <Card podcast={data} />)}
+            <ul>
+                {data.slice(0, 5).map((data) => <li key={data.id}><Card number={count++} podcast={data} /></li>)}
+            </ul>
         </main>
 
     )
