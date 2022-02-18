@@ -25,7 +25,7 @@ export default function Main() {
     }, []);
     return (
         <main className="main">
-            {data.map((data) => <Card id={data.podcasts} />)}
+            {data.map((data) => <Card podcast={data} />)}
         </main>
 
     )

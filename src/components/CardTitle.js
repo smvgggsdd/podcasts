@@ -1,7 +1,7 @@
 import '../styles/stylesheets/CardTitle.css';
 
-export default function CardTitle() {
+export default function CardTitle(props) {
     return (
-        <h3 className="card-title">Alexa Stop</h3>
+        <h3 className="card-title">{props.title}</h3>
     )
 }

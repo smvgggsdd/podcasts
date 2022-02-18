@@ -8,11 +8,10 @@ import Description from './Description';
 export default function Card(props) {
     return (
         <div className="card">
-            {/* {props.id} */}
             <CardNumber />
-            <CardImage />
-            <CardBody />
-            <Description />
+            <CardImage imageUrl={props.podcast.image} />
+            <CardBody podcast={props.podcast}/>
+            <Description description={props.podcast.description}/>
         </div>
     )
 }

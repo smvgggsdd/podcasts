@@ -1,10 +1,10 @@
 import {ReactComponent as Link} from '../svg/link.svg';
 import '../styles/stylesheets/Link.css';
 
-export default function WebLink() {
+export default function WebLink(props) {
 
     return (
-        <a className="web-link link" href="#">
+        <a className="web-link link" href={props.link}>
             <Link />
             WEB
         </a>

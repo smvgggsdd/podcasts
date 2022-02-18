@@ -6,15 +6,15 @@ import Rss from "./Rss";
 import Itunes from "./Itunes";
 import WebLink from "./WebLink";
 
-export default function CardMain() {
+export default function CardMain(props) {
     return (
         <div className="card-main">
-            <CardTitle />
-            <CardAuthor />
-            <CardEpisodes />
+            <CardTitle title={props.podcast.title}/>
+            <CardAuthor author={props.podcast.publisher}/>
+            <CardEpisodes episodes={props.podcast.total_episodes}/>
             <div className="icons">           
-                <Itunes />
-                <WebLink />
+                <Itunes link={props.podcast.itunes_id}/>
+                <WebLink link={props.podcast.website}/>
                 <Rss />
             </div>
 

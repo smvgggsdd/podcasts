@@ -1,7 +1,7 @@
 import '../styles/stylesheets/CardAuthor.css';
 
-export default function CardAuthor() {
+export default function CardAuthor(props) {
     return (
-        <p className='card-author'>by <strong>Robert Belgrave </strong>& <strong>Jim Bowes</strong></p>
+        <p className='card-author'>by <strong>{props.author}</strong></p>
     )
 }
