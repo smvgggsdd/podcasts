@@ -9,7 +9,7 @@ export default function Card(props) {
     return (
         <div className="card">
             <CardNumber number={props.number}/>
-            <CardImage imageUrl={props.podcast.image} />
+            <CardImage alt={props.podcast.title} imageUrl={props.podcast.image} />
             <CardBody podcast={props.podcast}/>
             <Description description={props.podcast.description}/>
         </div>
