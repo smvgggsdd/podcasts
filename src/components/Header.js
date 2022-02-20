@@ -9,9 +9,10 @@ export default function Header() {
             <div className="header-container">
                 <header className="mainHeader">
                     <Title />
+                    <Circle />
+                    <Triangle />
                 </header>
-                <Circle />
-                <Triangle />
+
             </div>
         </>
     )

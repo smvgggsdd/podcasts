@@ -5,6 +5,10 @@
   gap: 0rem;
   justify-content: center;
   min-height: 100px;
+  max-width: 910px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
 }
 
 .header-container {
@@ -16,6 +20,10 @@
   .header-container {
     padding-left: 0px;
     padding-right: 0px;
+  }
+
+  .mainHeader {
+    max-width: 376px;
   }
 }
 @media (max-width: 385px) {

@@ -38,7 +38,7 @@
   letter-spacing: 0.1rem;
 }
 
-@media (max-width: 390px) {
+@media (max-width: 385px) {
   .title-bold {
     align-items: center;
     display: flex;
