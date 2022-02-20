@@ -9,4 +9,10 @@
   margin-bottom: 25px;
 }
 
+@media (min-width: 1000px) {
+  .card-episodes {
+    margin-top: 10px;
+  }
+}
+
 /*# sourceMappingURL=CardEpisodes.css.map */

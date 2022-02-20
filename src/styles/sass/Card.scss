@@ -38,13 +38,24 @@ inversed card title is #777777
 
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 900px) {
     .card {
         grid: 'img cmain description' auto
         /1.5fr 3fr 2.7fr;
 
         margin-left: auto; 
         margin-right: auto;
+        padding-bottom: 40px;
+    }
+
+    .card-main {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .icons {
+        justify-content: flex-start;
+        gap: 20px;
     }
 }
 

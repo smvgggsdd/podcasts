@@ -10,10 +10,11 @@
   position: static;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 900px) {
   .card-image {
-    height: 190px;
-    width: 190px;
+    height: 193px;
+    width: 193px;
+    right: 42px;
   }
 }
 
