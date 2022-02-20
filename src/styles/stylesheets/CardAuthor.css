@@ -4,10 +4,9 @@
   font-weight: normal;
 }
 .card-author {
+  display: inline;
   font-family: "Space_Mono_Regular";
   font-size: 1.16rem;
-  display: inline;
-  width: 50px;
 }
 .card-author strong {
   color: #9c00b2;
