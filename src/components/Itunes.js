@@ -5,7 +5,7 @@ export default function Itunes(props) {
     return (
         <a className="itunes link" href={`htttps://itunes.apple.com/us/podcast/id${props.link}`}>
             <span className="apple">
-                <Apple />
+                <Apple alt="iTunes apple graphic"/>
             </span>
             &nbsp;ITUNES
         </a>

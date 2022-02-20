@@ -1,8 +1,17 @@
 .header-circle {
   background-clip: text;
+  height: 370px;
   position: absolute;
-  right: -205px;
-  top: -355px;
+  right: -165px;
+  top: -295px;
+}
+
+@media (min-width: 1000px) {
+  .header-circle {
+    height: 330px;
+    right: -90px;
+    top: -240px;
+  }
 }
 
 /*# sourceMappingURL=HeaderCircle.css.map */

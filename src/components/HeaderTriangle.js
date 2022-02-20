@@ -4,7 +4,7 @@ import '../styles/stylesheets/HeaderTriangle.css';
 export default function HeaderTriangle() {
     return (
         <div className="header-triangle">
-            <Triangle />
+            <Triangle alt="triangle graphic"/>
         </div>
     )
 }

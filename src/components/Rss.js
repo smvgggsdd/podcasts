@@ -5,7 +5,7 @@ export default function Rss() {
     return (
         <a className="rss link" href="#">
             <span className="rss-icon">
-                <RssIcon />
+                <RssIcon alt="rss graphic"/>
             </span>
             &nbsp;RSS
         </a>
