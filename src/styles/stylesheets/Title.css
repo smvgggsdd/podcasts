@@ -40,11 +40,14 @@
 
 @media (max-width: 390px) {
   .title-bold {
+    align-items: center;
     display: flex;
     flex-direction: column;
-    text-align: center;
-    align-items: center;
     justify-content: center;
+    line-height: 3.9rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
   }
 }
 

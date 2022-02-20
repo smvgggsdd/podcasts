@@ -13,6 +13,7 @@
     left: -13px;
     position: absolute;
     top: -33px;
+    transition: ease all .3s;
     width: 66px;
 
 }
@@ -22,7 +23,14 @@
     font-family: 'Space_Mono';
     font-size: 2.45rem;
     font-weight: bold;
-    left: 21px;
-    top: 5px;
+    left: 22px;
+    top: 4px;
     position: relative;
+}
+
+@media (min-width: 1200px) {
+    .card-circle {
+        left: -145px;
+        top: 0px;
+    }
 }

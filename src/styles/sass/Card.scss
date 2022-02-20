@@ -7,13 +7,16 @@ inversed card title is #777777
 */
 
 .card {
-    box-shadow: 0px 0px 10px 0px #a304bb;
+    // box-shadow: 0px 0px 10px 0px #a304bb;
+    border-radius: 3px;
+    box-shadow: 0px 0px 15px 0px #dda2dd;
     display: grid;
     grid: 'img cmain' auto
           'description description' auto
           /1fr 3fr;
     margin-bottom: 41px;
     margin-left: -22px;
+    max-width: 933px;
     position: relative;
     width: 100%;
 }
@@ -33,6 +36,16 @@ inversed card title is #777777
     display: flex;
     justify-content: space-between;
 
+}
+
+@media (min-width: 1000px) {
+    .card {
+        grid: 'img cmain description' auto
+        /1.5fr 3fr 2.7fr;
+
+        margin-left: auto; 
+        margin-right: auto;
+    }
 }
 
 
