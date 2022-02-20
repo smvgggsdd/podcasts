@@ -8,4 +8,11 @@
   margin-bottom: 40px;
 }
 
+@media (max-width: 480px) {
+  .description {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
 /*# sourceMappingURL=Description.css.map */

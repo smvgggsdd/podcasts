@@ -58,4 +58,18 @@ inversed card title is #777777
     }
 }
 
+@media (max-width: 480px) {
+    .card {
+        grid: 'img' auto
+              'cmain' auto
+              'description' auto
+              /1fr;
+    }
+
+    .card-main {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
 

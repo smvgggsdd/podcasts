@@ -12,4 +12,11 @@
   color: #9c00b2;
 }
 
+@media (max-width: 480px) {
+  .card-author {
+    display: block;
+    text-align: center;
+  }
+}
+
 /*# sourceMappingURL=CardAuthor.css.map */

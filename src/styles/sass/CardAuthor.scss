@@ -10,8 +10,14 @@
     display: inline;
     font-family: "Space_Mono_Regular";
     font-size: 1.16rem;
-    // width: 50px;
     strong {
         color: #9c00b2;
+    }
+}
+
+@media (max-width: 480px) {
+    .card-author {
+        display: block;
+        text-align: center;
     }
 }

@@ -14,5 +14,10 @@
     margin-top: 10px;
   }
 }
+@media (max-width: 480px) {
+  .card-episodes {
+    text-align: center;
+  }
+}
 
 /*# sourceMappingURL=CardEpisodes.css.map */

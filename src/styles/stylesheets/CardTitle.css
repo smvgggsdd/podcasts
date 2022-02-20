@@ -18,5 +18,10 @@
     margin-bottom: 13px;
   }
 }
+@media (max-width: 480px) {
+  .card-title {
+    text-align: center;
+  }
+}
 
 /*# sourceMappingURL=CardTitle.css.map */

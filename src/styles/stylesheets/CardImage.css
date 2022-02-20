@@ -17,5 +17,16 @@
     right: 42px;
   }
 }
+@media (max-width: 480px) {
+  .card-image {
+    top: 20px;
+    right: 0px;
+  }
+
+  .image-container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 
 /*# sourceMappingURL=CardImage.css.map */
