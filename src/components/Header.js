@@ -10,7 +10,7 @@ export default function Header() {
                 <header className="mainHeader">
                     <Title />
                 </header>
-                <Circle />  
+                <Circle />
                 <Triangle />
             </div>
         </>

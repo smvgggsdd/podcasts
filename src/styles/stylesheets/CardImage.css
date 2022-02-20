@@ -7,9 +7,7 @@
 }
 
 .image-container {
-  float: left;
-  height: 200px;
-  width: 100px;
+  position: static;
 }
 
 /*# sourceMappingURL=CardImage.css.map */

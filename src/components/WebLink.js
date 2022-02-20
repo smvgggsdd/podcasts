@@ -6,7 +6,7 @@ export default function WebLink(props) {
     return (
         <a className="web-link link" href={props.link}>
             <Link />
-            WEB
+            &nbsp;WEB
         </a>
     )   
 }

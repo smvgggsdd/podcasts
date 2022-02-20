@@ -4,8 +4,10 @@ import '../styles/stylesheets/Link.css';
 export default function Rss() {
     return (
         <a className="rss link" href="#">
-            <RssIcon />
-            RSS
+            <span className="rss-icon">
+                <RssIcon />
+            </span>
+            &nbsp;RSS
         </a>
     )   
 }

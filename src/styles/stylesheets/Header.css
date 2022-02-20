@@ -18,6 +18,12 @@
     padding-right: 0px;
   }
 }
+@media (max-width: 385px) {
+  .header-container {
+    padding-top: 13px;
+    padding-bottom: 14px;
+  }
+}
 @media (min-width: 1000px) {
   .mainHeader {
     flex-direction: row;
