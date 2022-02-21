@@ -6,6 +6,10 @@
   width: 141px;
 }
 
+.card-image.inverted {
+  filter: hue-rotate(-28.2deg) contrast(90%);
+}
+
 .image-container {
   position: static;
 }

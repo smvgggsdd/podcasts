@@ -12,6 +12,10 @@
   color: #9c00b2;
 }
 
+strong.inverted {
+  color: #fc731c;
+}
+
 @media (max-width: 480px) {
   .card-author {
     display: block;

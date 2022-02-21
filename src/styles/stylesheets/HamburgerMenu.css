@@ -4,16 +4,16 @@
   height: 2rem;
   justify-content: space-around;
   margin-left: 4%;
-  width: 2rem;
+  width: 2.4rem;
   z-index: 10;
 }
 
 .burger {
   background-color: black;
-  height: 0.25rem;
+  height: 0.3rem;
   transition: all 0.3s linear;
   transform-origin: 1px;
-  width: 2rem;
+  width: 2.4rem;
 }
 
 /*# sourceMappingURL=HamburgerMenu.css.map */

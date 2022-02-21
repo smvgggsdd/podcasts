@@ -12,9 +12,21 @@
   text-decoration: none;
 }
 
+.link.inverted {
+  color: #fc731c;
+}
+
+.link:active {
+  color: #fc731c;
+}
+
 .apple {
   position: relative;
   top: 2px;
+}
+
+.apple.inverted {
+  color: #fc731c;
 }
 
 .rss-icon {

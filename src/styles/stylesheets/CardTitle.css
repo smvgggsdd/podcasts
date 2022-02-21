@@ -12,6 +12,14 @@
   margin-bottom: 7px;
 }
 
+.card-title.inverted {
+  color: #777777;
+}
+
+.card-title:hover {
+  cursor: pointer;
+}
+
 @media (min-width: 1000px) {
   .card-title {
     margin-top: 50px;
