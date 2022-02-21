@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/web-design-application/static/css/main.8dccbb59.css",
+    "main.js": "/web-design-application/static/js/main.6c685628.js",
+    "static/media/WorkSans-Regular.ttf": "/web-design-application/static/media/WorkSans-Regular.14eed9473ed2e58be385.ttf",
+    "static/media/SpaceMono-Regular.ttf": "/web-design-application/static/media/SpaceMono-Regular.da00496ea7d980907e1e.ttf",
+    "static/media/SpaceMono-Bold.ttf": "/web-design-application/static/media/SpaceMono-Bold.70bf6887afbb5bc7c60c.ttf",
+    "static/media/rss.svg": "/web-design-application/static/media/rss.cd5388189bbfad16797f33a3fa6b0d90.svg",
+    "static/media/apple.svg": "/web-design-application/static/media/apple.d44130e875867136ae4014ffb96f2156.svg",
+    "static/media/link.svg": "/web-design-application/static/media/link.9448539a154d3d88ebd0bb7a5fec6c3c.svg",
+    "static/media/circle.svg": "/web-design-application/static/media/circle.39823a1c0e5292d57cd54997ee9b3183.svg",
+    "index.html": "/web-design-application/index.html",
+    "static/media/triangle.svg": "/web-design-application/static/media/triangle.0d22bf4b27b6770f47e9d53b58171d18.svg",
+    "main.8dccbb59.css.map": "/web-design-application/static/css/main.8dccbb59.css.map",
+    "main.6c685628.js.map": "/web-design-application/static/js/main.6c685628.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8dccbb59.css",
+    "static/js/main.6c685628.js"
+  ]
+}
